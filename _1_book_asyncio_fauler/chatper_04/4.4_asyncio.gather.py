@@ -1,8 +1,8 @@
 import asyncio
 import aiohttp
 from aiohttp import ClientSession
-from chatper_04 import fetch_status
-from util import async_timed
+from _1_book_asyncio_fauler.chatper_04 import fetch_status
+from _1_book_asyncio_fauler.util import async_timed
 
 
 @async_timed()
